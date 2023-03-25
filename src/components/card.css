@@ -1,0 +1,30 @@
+.card{
+    width: 300px;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.card-block{
+    display: inline-flex;
+}
+.btn-danger{
+    background-color: #6b9b2c;
+    border-color: white;
+}
+.btn-danger:hover{
+    background-color:white ;
+    border-color: #6b9b2c;
+}
+.w-101{
+    width: 500px;
+    height: 250px;
+    z-index: 1;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+}
