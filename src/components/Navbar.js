@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import logo from '../images/logo.png'
 import { FaBars } from "react-icons/fa"
 import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
+import { FaFacebookSquare } from "react-icons/fa"
+
 
 
 
@@ -20,7 +21,7 @@ export default class Navbar extends Component {
                 <div className="nav-center">
                     <div className="nav-header">
                         <Link to="/">
-                            <h1 className='hotel-navbar'>Hotel Donia </h1>
+                            <h2 className='hotel-navbar'>Hotel Donia </h2>
                         </Link>
                         <button type="button" className="nav-btn" onClick={this.handleToggle}>
                             <FaBars className="nav-icon" />
@@ -42,6 +43,12 @@ export default class Navbar extends Component {
                         <li>
                             <NavLink to="/Contact" activeClassName="active" >Contact</NavLink>
                         </li>
+
+                    </ul>
+                    <ul className="social-h">
+                        <a href={'https://www.facebook.com/hoteldonia/'}>
+                            <li><FaFacebookSquare className="nav-icon social-media-h" /></li>
+                        </a>
 
                     </ul>
                 </div>
