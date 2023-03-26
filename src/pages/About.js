@@ -4,6 +4,7 @@ import {Parallax} from 'react-parallax'
 
 import pic_about from '../images/cover-banner1.jpg'
 import parallax1 from '../images/Parallax/Hr.jpeg'
+import picAbout from '../images/facdeHotel2.jpg'
 
 
 
@@ -12,7 +13,7 @@ export default function About() {
         <div className="about-wall">
 
             <div className="header-cover">
-                <img src={pic_about} className="cover-banner" alt="pic_home" />
+                <img src={picAbout} className="cover-banner" alt="pic_home" />
                 <hr className="hr-cover1" />
                 <p className="text-cover">About</p>
                 <div className="border-text"></div>

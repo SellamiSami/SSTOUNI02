@@ -22,9 +22,9 @@ class Maps extends Component {
           defaultZoom={this.props.zoom}
         >
           <AnyReactComponent
-            lat={34.738099}
-            lng={10.753445}
-            text="Ezar Company"
+            lat={34.7358588002108}
+            lng={10.746067047746063}
+            text="hotel donia" 
           />
         </GoogleMapReact>
       </div>

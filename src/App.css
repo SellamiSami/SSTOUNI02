@@ -48,7 +48,7 @@ body {
 
 /* Navbar */
 nav.navbar {
-  background-color: #343A40
+   background-color: #dcdcdc /*#343A40 */
   
 }
 .navbar {
@@ -200,6 +200,7 @@ ul.nav-links.show-nav{
   right: 0;
   width: 100%;
   max-height: 450px;
+  padding-bottom: 0;
 }
 .nav-footer{
   padding: 10px 70px 10px 100px;

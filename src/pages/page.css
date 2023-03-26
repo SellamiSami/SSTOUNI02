@@ -187,7 +187,7 @@ div.carrousel-home {
 
 /* Start ABOUT */
 .about-wall {
-    background-color: #343A40;
+    background-color: #dcdcdc /*#343A40*/;
 }
 
 .header-cover {
@@ -233,14 +233,14 @@ section.section-dark {
 }
 
 .paralax-title {
-    color: #6b9b2c !important;
+    color: #000000 !important;
     text-transform: uppercase;
     font-size: 22px;
 }
 
 .word-about {
     text-align: justify;
-    color: rgb(238, 238, 238);
+    color: rgb(65, 31, 31);
     padding: 0 70px;
 }
 
@@ -251,7 +251,7 @@ section.section-dark {
 }
 
 .container-about1 {
-    background-color: #343A40;
+    background-color: #343A40; 
     width: 100%;
     display: flex;
     flex-flow: wrap;
