@@ -8,7 +8,7 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Error from './pages/Error'
 
-import {Route, Switch} from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -16,17 +16,17 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/About" component={About}/>
-        <Route exact path="/Services" component={Services}/>
-        <Route exact path="/Projects" component={Projects}/>
-        <Route exact path="/Contact" component={Contact}/>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/About" component={About} />
+        <Route exact path="/Services" component={Services} />
+        <Route exact path="/Projects" component={Projects} />
+        <Route exact path="/Contact" component={Contact} />
         <Route component={Error} />
       </Switch>
-      <Footer/>
-            
+      <Footer />
+
     </div>
   );
 }

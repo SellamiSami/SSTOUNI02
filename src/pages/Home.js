@@ -5,10 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaQuoteRight } from "react-icons/fa";
 import { Carousel } from 'react-bootstrap';
-import { FaEnvelope } from "react-icons/fa"
-import { FaFacebookSquare } from "react-icons/fa"
-import { FaLinkedin } from "react-icons/fa"
-import { FaYoutubeSquare } from "react-icons/fa"
+
 
 import cars1 from '../images/carousel/1.gif'
 import cars2 from '../images/carousel/2.png'
@@ -26,21 +23,8 @@ export default function Home() {
     return (
         <div className="home">
             <div className="social-home">
-                < img src="./reception.jpg " className="cover-banner" alt="image" />
-                <ul className="social-h">
-                    <a href={'https://www.facebook.com/ezar.co.ltd/'}>
-                        <li><FaFacebookSquare className="nav-icon social-media-h" /></li>
-                    </a>
-                    <a href={'https://www.linkedin.com/company/ezar-co-ltd//'}>
-                        <li><FaLinkedin className="nav-icon social-media-h" /></li>
-                    </a>
-                    <a href={'https://www.youtube.com/channel/UC8Zmeunw75u8tZycgo8TgiQ'}>
-                        <li><FaYoutubeSquare className="nav-icon social-media-h" /></li>
-                    </a>
-                    <a href={'https://www.youtube.com/channel/UC8Zmeunw75u8tZycgo8TgiQ'}>
-                        <li><FaEnvelope className="nav-icon social-media-h" /></li>
-                    </a>
-                </ul>
+                < img src="./dondon.jpg " className="cover-banner" alt="image" />
+
 
             </div>
             <div className="text-home">

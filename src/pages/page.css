@@ -145,7 +145,7 @@ div.carrousel-home {
 .cover-banner {
     width: 100%;
     background-position: center;
-    height: 500px;
+    height: 600px;
 }
 
 @media (max-width:992px) {
@@ -198,12 +198,13 @@ div.carrousel-home {
 }
 
 .hotel-navbar {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: "JosefinSans-Italic-VariableFont_wght.ttf", sans-serif;
     position: absolute;
-    top: 0;
+    top: 20;
     left: 0;
     margin: 0;
     padding: 10px;
+    color: rgb(60, 59, 59);
 }
 
 .text-cover {
