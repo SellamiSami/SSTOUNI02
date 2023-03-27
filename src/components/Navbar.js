@@ -37,9 +37,9 @@ export default class Navbar extends Component {
                         <li>
                             <NavLink to="/Services" activeClassName="active" >Services</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to="/Projects" activeClassName="active" >Projects</NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink to="/Contact" activeClassName="active" >Contact</NavLink>
                         </li>
