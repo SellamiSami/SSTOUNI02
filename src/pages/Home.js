@@ -31,15 +31,26 @@ export default function Home() {
                 <hr className="hr-home" />
                 <p><FaQuoteLeft className="comma0" /></p>
                 <p className="text-h" >
-                    <span className="home-bold">W</span>e offer the full range of integrated services for EPC plants including: project management, process engineering, multi-disciplinary detailed engineering, procurement, industrial construction, commissioning and start-up. We also provide maintenance engineering and global service to increase your facilities performances.
+                    <span className="home-bold">B</span>ienvenue à notre hôtel de luxe situé au cœur de la ville.
+                    Notre établissement offre des chambres élégantes et spacieuses dotées de toutes les
+                    commodités modernes pour un séjour confortable et relaxant. Chaque chambre dispose
+                    d'un grand lit confortable, d'une télévision à écran plat, d'un minibar, d'un coffre-fort et
+                    d'une salle de bain privative équipée d'articles de toilette de qualité supérieure.
                 </p>
                 <br />
                 <p className="text-h" >
-                    <span className="home-bold">W</span>e are particularly conversant with expertise in multidisciplinary liable to respect the project’s confidentiality with a mental of new business generation away of any direct or indirect corruption. We put on disposal a network of legal joint-ventured partners and suppliers with continuous assistance along project exaction. We deliver our services with an assurance of reasonable costs, reliable scheduling, and exceptional quality.
+                    <span className="home-bold">N</span>otre hôtel propose également une gamme complète de services,
+                    tels qu'une réception ouverte 24h/24, un service de conciergerie, un centre d'affaires et un
+                    service de blanchisserie. Les clients peuvent profiter de notre restaurant sur place, qui sert
+                    une cuisine délicieuse et raffinée dans un cadre élégant. Pour se détendre, les clients peuvent
+                    également utiliser notre spa, notre centre de remise en forme ou notre piscine intérieure chauffée.
                 </p>
                 <br />
                 <p className="text-h" >
-                    <span className="home-bold">T</span>o meet the demands of strict budgets and tight deadlines, we have built teams of highly skilled international and local professionals and integrated the technology of today to exceed your expectations. We have the experience and manpower to complete your needs in a timely and cost-effective manner.
+                    <span className="home-bold">Q</span>ue vous soyez en voyage d'affaires ou en vacances,
+                    notre hôtel est l'endroit idéal pour séjourner.
+                    Nous sommes impatients de vous accueillir bientôt et de vous offrir
+                    une expérience inoubliable.
                 </p>
 
                 <p><FaQuoteRight className="comma1" /></p>
