@@ -3,11 +3,6 @@ import { FaBars } from "react-icons/fa"
 import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 import { FaFacebookSquare } from "react-icons/fa"
-
-
-
-
-
 export default class Navbar extends Component {
     state = {
         isOpen: false
@@ -18,6 +13,7 @@ export default class Navbar extends Component {
     render() {
         return (
             <nav className="navbar">
+               
                 <div className="nav-center">
                     <div className="nav-header">
                         <Link to="/">
@@ -37,19 +33,20 @@ export default class Navbar extends Component {
                         <li>
                             <NavLink to="/Services" activeClassName="active" >Services</NavLink>
                         </li>
+                        <li>
+                            <NavLink to="/Restaurant" activeClassName="active" >Restaurant</NavLink>
+                        </li>
                         {/* <li>
                             <NavLink to="/Projects" activeClassName="active" >Projects</NavLink>
                         </li> */}
                         <li>
                             <NavLink to="/Contact" activeClassName="active" >Contact</NavLink>
                         </li>
-
                     </ul>
                     <ul className="social-h">
                         <a href={'https://www.facebook.com/hoteldonia/'}>
                             <li><FaFacebookSquare className="nav-icon social-media-h" /></li>
                         </a>
-
                     </ul>
                 </div>
             </nav>
